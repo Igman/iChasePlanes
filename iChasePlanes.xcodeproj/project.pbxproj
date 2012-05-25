@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FE04DD81570547D00577B49 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE04DD71570547D00577B49 /* Cocoa.framework */; };
+		4FE04DE21570547D00577B49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FE04DE01570547D00577B49 /* InfoPlist.strings */; };
+		4FE04DE41570547D00577B49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE04DE31570547D00577B49 /* main.m */; };
+		4FE04DE81570547D00577B49 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4FE04DE61570547D00577B49 /* Credits.rtf */; };
+		4FE04DEB1570547D00577B49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE04DEA1570547D00577B49 /* AppDelegate.m */; };
+		4FE04DEE1570547D00577B49 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FE04DEC1570547D00577B49 /* MainMenu.xib */; };
+		4FE04DF61570547D00577B49 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE04DF51570547D00577B49 /* SenTestingKit.framework */; };
+		4FE04DF71570547D00577B49 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE04DD71570547D00577B49 /* Cocoa.framework */; };
+		4FE04DFF1570547D00577B49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FE04DFD1570547D00577B49 /* InfoPlist.strings */; };
+		4FE04E021570547D00577B49 /* iChasePlanesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE04E011570547D00577B49 /* iChasePlanesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FE04DF81570547D00577B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FE04DCA1570547D00577B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FE04DD21570547D00577B49;
+			remoteInfo = iChasePlanes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FE04DD31570547D00577B49 /* iChasePlanes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChasePlanes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE04DD71570547D00577B49 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4FE04DDA1570547D00577B49 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4FE04DDB1570547D00577B49 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4FE04DDC1570547D00577B49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4FE04DDF1570547D00577B49 /* iChasePlanes-Info.plist */ = {isa = PBXFileReference; path = "iChasePlanes-Info.plist"; sourceTree = "<group>"; };
+		4FE04DE11570547D00577B49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4FE04DE31570547D00577B49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FE04DE51570547D00577B49 /* iChasePlanes-Prefix.pch */ = {isa = PBXFileReference; path = "iChasePlanes-Prefix.pch"; sourceTree = "<group>"; };
+		4FE04DE71570547D00577B49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4FE04DE91570547D00577B49 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FE04DEA1570547D00577B49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FE04DED1570547D00577B49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4FE04DF41570547D00577B49 /* iChasePlanesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iChasePlanesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE04DF51570547D00577B49 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4FE04DFC1570547D00577B49 /* iChasePlanesTests-Info.plist */ = {isa = PBXFileReference; path = "iChasePlanesTests-Info.plist"; sourceTree = "<group>"; };
+		4FE04DFE1570547D00577B49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4FE04E001570547D00577B49 /* iChasePlanesTests.h */ = {isa = PBXFileReference; path = iChasePlanesTests.h; sourceTree = "<group>"; };
+		4FE04E011570547D00577B49 /* iChasePlanesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iChasePlanesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FE04DD01570547D00577B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE04DD81570547D00577B49 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE04DF01570547D00577B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE04DF61570547D00577B49 /* SenTestingKit.framework in Frameworks */,
+				4FE04DF71570547D00577B49 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FE04DC81570547D00577B49 = {
+			isa = PBXGroup;
+			children = (
+				4FE04DDD1570547D00577B49 /* iChasePlanes */,
+				4FE04DFA1570547D00577B49 /* iChasePlanesTests */,
+				4FE04DD61570547D00577B49 /* Frameworks */,
+				4FE04DD41570547D00577B49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FE04DD41570547D00577B49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FE04DD31570547D00577B49 /* iChasePlanes.app */,
+				4FE04DF41570547D00577B49 /* iChasePlanesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FE04DD61570547D00577B49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FE04DD71570547D00577B49 /* Cocoa.framework */,
+				4FE04DF51570547D00577B49 /* SenTestingKit.framework */,
+				4FE04DD91570547D00577B49 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FE04DD91570547D00577B49 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FE04DDA1570547D00577B49 /* AppKit.framework */,
+				4FE04DDB1570547D00577B49 /* CoreData.framework */,
+				4FE04DDC1570547D00577B49 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4FE04DDD1570547D00577B49 /* iChasePlanes */ = {
+			isa = PBXGroup;
+			children = (
+				4FE04DE91570547D00577B49 /* AppDelegate.h */,
+				4FE04DEA1570547D00577B49 /* AppDelegate.m */,
+				4FE04DEC1570547D00577B49 /* MainMenu.xib */,
+				4FE04DDE1570547D00577B49 /* Supporting Files */,
+			);
+			path = iChasePlanes;
+			sourceTree = "<group>";
+		};
+		4FE04DDE1570547D00577B49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FE04DDF1570547D00577B49 /* iChasePlanes-Info.plist */,
+				4FE04DE01570547D00577B49 /* InfoPlist.strings */,
+				4FE04DE31570547D00577B49 /* main.m */,
+				4FE04DE51570547D00577B49 /* iChasePlanes-Prefix.pch */,
+				4FE04DE61570547D00577B49 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FE04DFA1570547D00577B49 /* iChasePlanesTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FE04E001570547D00577B49 /* iChasePlanesTests.h */,
+				4FE04E011570547D00577B49 /* iChasePlanesTests.m */,
+				4FE04DFB1570547D00577B49 /* Supporting Files */,
+			);
+			path = iChasePlanesTests;
+			sourceTree = "<group>";
+		};
+		4FE04DFB1570547D00577B49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FE04DFC1570547D00577B49 /* iChasePlanesTests-Info.plist */,
+				4FE04DFD1570547D00577B49 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FE04DD21570547D00577B49 /* iChasePlanes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FE04E051570547D00577B49 /* Build configuration list for PBXNativeTarget "iChasePlanes" */;
+			buildPhases = (
+				4FE04DCF1570547D00577B49 /* Sources */,
+				4FE04DD01570547D00577B49 /* Frameworks */,
+				4FE04DD11570547D00577B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iChasePlanes;
+			productName = iChasePlanes;
+			productReference = 4FE04DD31570547D00577B49 /* iChasePlanes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FE04DF31570547D00577B49 /* iChasePlanesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FE04E081570547D00577B49 /* Build configuration list for PBXNativeTarget "iChasePlanesTests" */;
+			buildPhases = (
+				4FE04DEF1570547D00577B49 /* Sources */,
+				4FE04DF01570547D00577B49 /* Frameworks */,
+				4FE04DF11570547D00577B49 /* Resources */,
+				4FE04DF21570547D00577B49 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FE04DF91570547D00577B49 /* PBXTargetDependency */,
+			);
+			name = iChasePlanesTests;
+			productName = iChasePlanesTests;
+			productReference = 4FE04DF41570547D00577B49 /* iChasePlanesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FE04DCA1570547D00577B49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4FE04DCD1570547D00577B49 /* Build configuration list for PBXProject "iChasePlanes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4FE04DC81570547D00577B49;
+			productRefGroup = 4FE04DD41570547D00577B49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FE04DD21570547D00577B49 /* iChasePlanes */,
+				4FE04DF31570547D00577B49 /* iChasePlanesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FE04DD11570547D00577B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE04DE21570547D00577B49 /* InfoPlist.strings in Resources */,
+				4FE04DE81570547D00577B49 /* Credits.rtf in Resources */,
+				4FE04DEE1570547D00577B49 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE04DF11570547D00577B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE04DFF1570547D00577B49 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FE04DF21570547D00577B49 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FE04DCF1570547D00577B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE04DE41570547D00577B49 /* main.m in Sources */,
+				4FE04DEB1570547D00577B49 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE04DEF1570547D00577B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE04E021570547D00577B49 /* iChasePlanesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FE04DF91570547D00577B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FE04DD21570547D00577B49 /* iChasePlanes */;
+			targetProxy = 4FE04DF81570547D00577B49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FE04DE01570547D00577B49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FE04DE11570547D00577B49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4FE04DE61570547D00577B49 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FE04DE71570547D00577B49 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4FE04DEC1570547D00577B49 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FE04DED1570547D00577B49 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4FE04DFD1570547D00577B49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FE04DFE1570547D00577B49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FE04E031570547D00577B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4FE04E041570547D00577B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4FE04E061570547D00577B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iChasePlanes/iChasePlanes-Prefix.pch";
+				INFOPLIST_FILE = "iChasePlanes/iChasePlanes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4FE04E071570547D00577B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iChasePlanes/iChasePlanes-Prefix.pch";
+				INFOPLIST_FILE = "iChasePlanes/iChasePlanes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4FE04E091570547D00577B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iChasePlanes.app/Contents/MacOS/iChasePlanes";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iChasePlanes/iChasePlanes-Prefix.pch";
+				INFOPLIST_FILE = "iChasePlanesTests/iChasePlanesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4FE04E0A1570547D00577B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iChasePlanes.app/Contents/MacOS/iChasePlanes";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iChasePlanes/iChasePlanes-Prefix.pch";
+				INFOPLIST_FILE = "iChasePlanesTests/iChasePlanesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FE04DCD1570547D00577B49 /* Build configuration list for PBXProject "iChasePlanes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FE04E031570547D00577B49 /* Debug */,
+				4FE04E041570547D00577B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FE04E051570547D00577B49 /* Build configuration list for PBXNativeTarget "iChasePlanes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FE04E061570547D00577B49 /* Debug */,
+				4FE04E071570547D00577B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FE04E081570547D00577B49 /* Build configuration list for PBXNativeTarget "iChasePlanesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FE04E091570547D00577B49 /* Debug */,
+				4FE04E0A1570547D00577B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FE04DCA1570547D00577B49 /* Project object */;
+}

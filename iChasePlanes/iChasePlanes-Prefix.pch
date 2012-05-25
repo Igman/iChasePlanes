@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'iChasePlanes' target in the 'iChasePlanes' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
