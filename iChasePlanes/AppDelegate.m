@@ -15,6 +15,8 @@
 
 @synthesize window = _window;
 @synthesize mainImageView = _mainImageView;
+@synthesize NameLabel = _NameLabel;
+@synthesize PlaneLabel = _PlaneLabel;
 @synthesize planesDeck = _planesDeck;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
@@ -27,7 +29,8 @@
 - (IBAction)peformPlaneswalk:(id)sender {
     PlaneCard *card = [self.planesDeck drawPlaneCard];
     NSImage *cardImage = [[NSImage alloc] initWithContentsOfFile:card.imagePath];
-    NSLog(card.name);
+    [self.NameLabel setStringValue:card.name];
+    [self.PlaneLabel setStringValue:card.plane];
     [self.mainImageView setImage:cardImage];
 }
 

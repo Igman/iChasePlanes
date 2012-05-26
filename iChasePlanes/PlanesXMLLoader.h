@@ -9,9 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @class PlanesDeck;
+@class PlaneCard;
 
 @interface PlanesXMLLoader : NSObject
 
 + (PlanesDeck*) getDeckFromXMLFile:(NSString*)file;;
++ (NSArray*) buildPlaneCardArrayFromDocument:(NSXMLDocument*)document;
++ (PlaneCard*) createPlaneCardFromXMLNode:(NSXMLNode*)xmlNode;
 
 @end

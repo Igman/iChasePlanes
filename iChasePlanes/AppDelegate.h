@@ -16,6 +16,8 @@
 
 @property (assign) IBOutlet NSWindow *window;
 @property (weak) IBOutlet NSImageView *mainImageView;
+@property (weak) IBOutlet NSTextField *NameLabel;
+@property (weak) IBOutlet NSTextField *PlaneLabel;
 
 - (IBAction)peformPlaneswalk:(id)sender;
 

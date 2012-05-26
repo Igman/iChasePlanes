@@ -18,5 +18,6 @@
 - (id)init;
 - (id)initWithAvailableCards:(NSArray*)cards;
 - (PlaneCard*)drawPlaneCard;
+- (void) buildDeck;
 
 @end
