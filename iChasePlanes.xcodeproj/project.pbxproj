@@ -35,19 +35,19 @@
 		4FE04DDA1570547D00577B49 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		4FE04DDB1570547D00577B49 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		4FE04DDC1570547D00577B49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4FE04DDF1570547D00577B49 /* iChasePlanes-Info.plist */ = {isa = PBXFileReference; path = "iChasePlanes-Info.plist"; sourceTree = "<group>"; };
+		4FE04DDF1570547D00577B49 /* iChasePlanes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iChasePlanes-Info.plist"; sourceTree = "<group>"; };
 		4FE04DE11570547D00577B49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4FE04DE31570547D00577B49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4FE04DE51570547D00577B49 /* iChasePlanes-Prefix.pch */ = {isa = PBXFileReference; path = "iChasePlanes-Prefix.pch"; sourceTree = "<group>"; };
+		4FE04DE51570547D00577B49 /* iChasePlanes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iChasePlanes-Prefix.pch"; sourceTree = "<group>"; };
 		4FE04DE71570547D00577B49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		4FE04DE91570547D00577B49 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FE04DE91570547D00577B49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4FE04DEA1570547D00577B49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4FE04DED1570547D00577B49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4FE04DF41570547D00577B49 /* iChasePlanesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iChasePlanesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE04DF51570547D00577B49 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		4FE04DFC1570547D00577B49 /* iChasePlanesTests-Info.plist */ = {isa = PBXFileReference; path = "iChasePlanesTests-Info.plist"; sourceTree = "<group>"; };
+		4FE04DFC1570547D00577B49 /* iChasePlanesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iChasePlanesTests-Info.plist"; sourceTree = "<group>"; };
 		4FE04DFE1570547D00577B49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4FE04E001570547D00577B49 /* iChasePlanesTests.h */ = {isa = PBXFileReference; path = iChasePlanesTests.h; sourceTree = "<group>"; };
+		4FE04E001570547D00577B49 /* iChasePlanesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iChasePlanesTests.h; sourceTree = "<group>"; };
 		4FE04E011570547D00577B49 /* iChasePlanesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iChasePlanesTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
