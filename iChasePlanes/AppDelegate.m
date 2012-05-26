@@ -27,6 +27,7 @@
 - (IBAction)peformPlaneswalk:(id)sender {
     PlaneCard *card = [self.planesDeck drawPlaneCard];
     NSImage *cardImage = [[NSImage alloc] initWithContentsOfFile:card.imagePath];
+    NSLog(card.name);
     [self.mainImageView setImage:cardImage];
 }
 

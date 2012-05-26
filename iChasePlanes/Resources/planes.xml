@@ -7,9 +7,268 @@
     </plane-card>
     
     <plane-card>
+        <name>The Æther Flues</name>
+        <plane>Iquatana</plane>
+        <image-file format="jpeg">the-aether-flues</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Agyrem</name>
+        <plane>Ravnica</plane>
+        <image-file format="jpeg">agyrem</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Bant</name>
+        <plane>Alara</plane>
+        <image-file format="jpeg">bant</image-file>
+    </plane-card>
+        
+    <plane-card>
+        <name>Cliffside Market</name>
+        <plane>Mercadia</plane>
+        <image-file format="jpeg">cliffside-market</image-file>
+    </plane-card>   
+    
+    <plane-card>
+        <name>The Dark Barony</name>
+        <plane>Ulgrotha</plane>
+        <image-file format="jpeg">the-dark-barony</image-file>
+    </plane-card>    
+     
+    <plane-card>
+        <name>Eloren Wilds</name>
+        <plane>Shandalar</plane>
+        <image-file format="jpeg">eloren-wilds</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>The Eon Fog</name>
+        <plane>Equilor</plane>
+        <image-file format="jpeg">the-eon-fog</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Feeding Grounds</name>
+        <plane>Muraganda</plane>
+        <image-file format="jpeg">feeding-grounds</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Fields of Summer</name>
+        <plane>Moag</plane>
+        <image-file format="jpeg">fields-of-summer</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>The Fourth Sphere</name>
+        <plane>Phyrexia</plane>
+        <image-file format="jpeg">the-fourth-sphere</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Glimmervoid Basin</name>
+        <plane>Mirrodin</plane>
+        <image-file format="jpeg">glimmervoid-basin</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Goldmeadow</name>
+        <plane>Lorwyn</plane>
+        <image-file format="jpeg">goldmeadow</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>The Great Forest</name>
+        <plane>Lorwyn</plane>
+        <image-file format="jpeg">the-great-forest</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Grixis</name>
+        <plane>Alara</plane>
+        <image-file format="jpeg">grixis</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>The Hippodrome</name>
+        <plane>Segovia</plane>
+        <image-file format="jpeg">the-hippodrome</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Immersturm</name>
+        <plane>Valla</plane>
+        <image-file format="jpeg">immersturm</image-file>
+    </plane-card>  
+    
+    <plane-card>
+        <name>Isle of Vesuva</name>
+        <plane>Dominaria</plane>
+        <image-file format="jpeg">isle-of-vesuva</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Izzet Steam Maze</name>
+        <plane>Ravnica</plane>
+        <image-file format="jpeg">izzet-steam-maze</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Krosa</name>
+        <plane>Dominaria</plane>
+        <image-file format="jpeg">krosa</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Lethe Lake</name>
+        <plane>Arkhos</plane>
+        <image-file format="jpeg">lethe-lake</image-file>
+    </plane-card>
+    
+    <plane-card>
         <name>Llanowar</name>
         <plane>Dominaria</plane>
         <image-file format="jpeg">llanowar</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>The Maelstorm</name>
+        <plane>Alara</plane>
+        <image-file format="jpeg">the-maelstrom</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Minamo</name>
+        <plane>Kamigawa</plane>
+        <image-file format="jpeg">minamo</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Murasa</name>
+        <plane>Zendikar</plane>
+        <image-file format="jpeg">murasa</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Naar Isle</name>
+        <plane>Wildfire</plane>
+        <image-file format="jpeg">naar-isle</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Naya</name>
+        <plane>Alara</plane>
+        <image-file format="jpeg">naya</image-file>
+    </plane-card>  
+    
+    <plane-card>
+        <name>Otaria</name>
+        <plane>Dominaria</plane>
+        <image-file format="jpeg">otaria</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Panopticon</name>
+        <plane>Mirroden</plane>
+        <image-file format="jpeg">panopticon</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Pools of Becoming</name>
+        <plane>Bolas's Meditation Realm</plane>
+        <image-file format="jpeg">pools-of-becoming</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Raven's Run</name>
+        <plane>Shadowmoor</plane>
+        <image-file format="jpeg">ravens-run</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Sanctum of Serra</name>
+        <plane>Serra's Realm</plane>
+        <image-file format="jpeg">sanctum-of-serra</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Sea of Sand</name>
+        <plane>Rabiah</plane>
+        <image-file format="jpeg">sea-of-sand</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Shiv</name>
+        <plane>Dominaria</plane>
+        <image-file format="jpeg">shiv</image-file>
+    </plane-card>
+    
+    
+    <plane-card>
+        <name>Skybreen</name>
+        <plane>Kaldheim</plane>
+        <image-file format="jpeg">bant</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Sokenzan</name>
+        <plane>Kamigawa</plane>
+        <image-file format="jpeg">sokenzan</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Stronghold Furnace</name>
+        <plane>Rath</plane>
+        <image-file format="jpeg">stronghold-furnace</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Turri Island</name>
+        <plane>Ir</plane>
+        <image-file format="jpeg">turri-island</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Undercity Reaches</name>
+        <plane>Ravnica</plane>
+        <image-file format="jpeg">undercity-reaches</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Velis Vel</name>
+        <plane>Lorwyn</plane>
+        <image-file format="jpeg">velis-vel</image-file>
+    </plane-card>  
+    
+    <plane-card>
+        <name>Tazeem</name>
+        <plane>Zendikar</plane>
+        <image-file format="jpeg">tazeem-release-promo</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Celestine Reef</name>
+        <plane>Luvion</plane>
+        <image-file format="jpeg">celestine-reef-pre-release-promo</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Horizon Boughs</name>
+        <plane>Pyrulea</plane>
+        <image-file format="jpeg">horizon-boughs-gateway-promo</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Mirrored Depths</name>
+        <plane>Karsus</plane>
+        <image-file format="jpeg">mirrored-depths</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Tember City</name>
+        <plane>Kinshala</plane>
+        <image-file format="jpeg">tember-city</image-file>
     </plane-card>
     
 </plane-cards>

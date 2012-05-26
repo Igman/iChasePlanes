@@ -32,6 +32,7 @@
 -(PlaneCard*) drawPlaneCard{
     //Grabs a random plane from the deck
     if([self.activeDeck count] == 0){
+        NSLog(@"rebuilding deck");
         [self buildDeck];
     }
     srand(time(nil));
@@ -39,11 +40,12 @@
     PlaneCard *card = [self.activeDeck objectAtIndex:index];
     [self.activeDeck removeObjectAtIndex:index];
     [self.discardDeck addObject:card];
+    int count = [self.activeDeck count];
+    NSLog(@"%i",count);
     return card;
 }
 
 -(void) buildDeck{
-    NSMutableArray *activeDeck = [[NSMutableArray alloc] init];
     self.discardDeck = [[NSMutableArray alloc] init];  
     self.activeDeck = [[NSMutableArray alloc] initWithArray:self.availableCards];
 }

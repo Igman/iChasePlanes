@@ -11,6 +11,48 @@
 		4F01C29115715DF4004371F1 /* planes.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4F01C28F15715DF4004371F1 /* planes.xml */; };
 		4F1197FF15716412004E61F2 /* PlanesXMLLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1197FE15716412004E61F2 /* PlanesXMLLoader.m */; };
 		4F11980215716FBF004E61F2 /* PlaneCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F11980115716FBF004E61F2 /* PlaneCard.m */; };
+		4F11980415718C95004E61F2 /* the-aether-flues.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11980315718C95004E61F2 /* the-aether-flues.jpeg */; };
+		4F11982E15719463004E61F2 /* tember-city.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11980515719463004E61F2 /* tember-city.jpeg */; };
+		4F11982F15719463004E61F2 /* mirrored-depths.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11980615719463004E61F2 /* mirrored-depths.jpeg */; };
+		4F11983015719463004E61F2 /* horizon-boughs-gateway-promo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11980715719463004E61F2 /* horizon-boughs-gateway-promo.jpeg */; };
+		4F11983115719463004E61F2 /* celestine-reef-pre-release-promo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11980815719463004E61F2 /* celestine-reef-pre-release-promo.jpeg */; };
+		4F11983215719463004E61F2 /* tazeem-release-promo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11980915719463004E61F2 /* tazeem-release-promo.jpeg */; };
+		4F11983315719463004E61F2 /* velis-vel.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11980A15719463004E61F2 /* velis-vel.jpeg */; };
+		4F11983415719463004E61F2 /* undercity-reaches.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11980B15719463004E61F2 /* undercity-reaches.jpeg */; };
+		4F11983515719463004E61F2 /* turri-island.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11980C15719463004E61F2 /* turri-island.jpeg */; };
+		4F11983615719463004E61F2 /* stronghold-furnace.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11980D15719463004E61F2 /* stronghold-furnace.jpeg */; };
+		4F11983715719463004E61F2 /* sokenzan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11980E15719463004E61F2 /* sokenzan.jpeg */; };
+		4F11983815719463004E61F2 /* skybreen.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11980F15719463004E61F2 /* skybreen.jpeg */; };
+		4F11983915719463004E61F2 /* shiv.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11981015719463004E61F2 /* shiv.jpeg */; };
+		4F11983A15719463004E61F2 /* sea-of-sand.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11981115719463004E61F2 /* sea-of-sand.jpeg */; };
+		4F11983B15719463004E61F2 /* sanctum-of-serra.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11981215719463004E61F2 /* sanctum-of-serra.jpeg */; };
+		4F11983C15719463004E61F2 /* ravens-run.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11981315719463004E61F2 /* ravens-run.jpeg */; };
+		4F11983D15719463004E61F2 /* pools-of-becoming.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11981415719463004E61F2 /* pools-of-becoming.jpeg */; };
+		4F11983E15719463004E61F2 /* panopticon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11981515719463004E61F2 /* panopticon.jpeg */; };
+		4F11983F15719463004E61F2 /* otaria.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11981615719463004E61F2 /* otaria.jpeg */; };
+		4F11984015719463004E61F2 /* naya.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11981715719463004E61F2 /* naya.jpeg */; };
+		4F11984115719463004E61F2 /* naar-isle.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11981815719463004E61F2 /* naar-isle.jpeg */; };
+		4F11984215719463004E61F2 /* murasa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11981915719463004E61F2 /* murasa.jpeg */; };
+		4F11984315719463004E61F2 /* the-maelstrom.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11981A15719463004E61F2 /* the-maelstrom.jpeg */; };
+		4F11984415719463004E61F2 /* lethe-lake.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11981B15719463004E61F2 /* lethe-lake.jpeg */; };
+		4F11984515719463004E61F2 /* krosa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11981C15719463004E61F2 /* krosa.jpeg */; };
+		4F11984615719463004E61F2 /* izzet-steam-maze.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11981D15719463004E61F2 /* izzet-steam-maze.jpeg */; };
+		4F11984715719463004E61F2 /* isle-of-vesuva.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11981E15719463004E61F2 /* isle-of-vesuva.jpeg */; };
+		4F11984815719463004E61F2 /* immersturm.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11981F15719463004E61F2 /* immersturm.jpeg */; };
+		4F11984915719463004E61F2 /* the-hippodrome.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11982015719463004E61F2 /* the-hippodrome.jpeg */; };
+		4F11984A15719463004E61F2 /* grixis.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11982115719463004E61F2 /* grixis.jpeg */; };
+		4F11984B15719463004E61F2 /* the-great-forest.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11982215719463004E61F2 /* the-great-forest.jpeg */; };
+		4F11984C15719463004E61F2 /* goldmeadow.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11982315719463004E61F2 /* goldmeadow.jpeg */; };
+		4F11984D15719463004E61F2 /* glimmervoid-basin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11982415719463004E61F2 /* glimmervoid-basin.jpeg */; };
+		4F11984E15719463004E61F2 /* the-fourth-sphere.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11982515719463004E61F2 /* the-fourth-sphere.jpeg */; };
+		4F11984F15719463004E61F2 /* fields-of-summer.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11982615719463004E61F2 /* fields-of-summer.jpeg */; };
+		4F11985015719463004E61F2 /* feeding-grounds.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11982715719463004E61F2 /* feeding-grounds.jpeg */; };
+		4F11985115719463004E61F2 /* the-eon-fog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11982815719463004E61F2 /* the-eon-fog.jpeg */; };
+		4F11985215719463004E61F2 /* eloren-wilds.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11982915719463004E61F2 /* eloren-wilds.jpeg */; };
+		4F11985315719463004E61F2 /* the-dark-barony.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11982A15719463004E61F2 /* the-dark-barony.jpeg */; };
+		4F11985415719463004E61F2 /* cliffside-market.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11982B15719463004E61F2 /* cliffside-market.jpeg */; };
+		4F11985515719463004E61F2 /* bant.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11982C15719463004E61F2 /* bant.jpeg */; };
+		4F11985615719463004E61F2 /* agyrem.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4F11982D15719463004E61F2 /* agyrem.jpeg */; };
 		4FA428F615706FAF0050B09F /* academy-at-tolaria-west.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4FA428F115706FAF0050B09F /* academy-at-tolaria-west.jpeg */; };
 		4FA428F715706FAF0050B09F /* llanowar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4FA428F215706FAF0050B09F /* llanowar.jpeg */; };
 		4FA428F815706FAF0050B09F /* minamo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4FA428F315706FAF0050B09F /* minamo.jpeg */; };
@@ -45,6 +87,48 @@
 		4F1197FE15716412004E61F2 /* PlanesXMLLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanesXMLLoader.m; sourceTree = "<group>"; };
 		4F11980015716FBF004E61F2 /* PlaneCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaneCard.h; sourceTree = "<group>"; };
 		4F11980115716FBF004E61F2 /* PlaneCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaneCard.m; sourceTree = "<group>"; };
+		4F11980315718C95004E61F2 /* the-aether-flues.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-aether-flues.jpeg"; sourceTree = "<group>"; };
+		4F11980515719463004E61F2 /* tember-city.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tember-city.jpeg"; sourceTree = "<group>"; };
+		4F11980615719463004E61F2 /* mirrored-depths.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mirrored-depths.jpeg"; sourceTree = "<group>"; };
+		4F11980715719463004E61F2 /* horizon-boughs-gateway-promo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "horizon-boughs-gateway-promo.jpeg"; sourceTree = "<group>"; };
+		4F11980815719463004E61F2 /* celestine-reef-pre-release-promo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "celestine-reef-pre-release-promo.jpeg"; sourceTree = "<group>"; };
+		4F11980915719463004E61F2 /* tazeem-release-promo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tazeem-release-promo.jpeg"; sourceTree = "<group>"; };
+		4F11980A15719463004E61F2 /* velis-vel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "velis-vel.jpeg"; sourceTree = "<group>"; };
+		4F11980B15719463004E61F2 /* undercity-reaches.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "undercity-reaches.jpeg"; sourceTree = "<group>"; };
+		4F11980C15719463004E61F2 /* turri-island.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "turri-island.jpeg"; sourceTree = "<group>"; };
+		4F11980D15719463004E61F2 /* stronghold-furnace.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stronghold-furnace.jpeg"; sourceTree = "<group>"; };
+		4F11980E15719463004E61F2 /* sokenzan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sokenzan.jpeg; sourceTree = "<group>"; };
+		4F11980F15719463004E61F2 /* skybreen.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skybreen.jpeg; sourceTree = "<group>"; };
+		4F11981015719463004E61F2 /* shiv.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shiv.jpeg; sourceTree = "<group>"; };
+		4F11981115719463004E61F2 /* sea-of-sand.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sea-of-sand.jpeg"; sourceTree = "<group>"; };
+		4F11981215719463004E61F2 /* sanctum-of-serra.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sanctum-of-serra.jpeg"; sourceTree = "<group>"; };
+		4F11981315719463004E61F2 /* ravens-run.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ravens-run.jpeg"; sourceTree = "<group>"; };
+		4F11981415719463004E61F2 /* pools-of-becoming.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pools-of-becoming.jpeg"; sourceTree = "<group>"; };
+		4F11981515719463004E61F2 /* panopticon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panopticon.jpeg; sourceTree = "<group>"; };
+		4F11981615719463004E61F2 /* otaria.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = otaria.jpeg; sourceTree = "<group>"; };
+		4F11981715719463004E61F2 /* naya.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = naya.jpeg; sourceTree = "<group>"; };
+		4F11981815719463004E61F2 /* naar-isle.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "naar-isle.jpeg"; sourceTree = "<group>"; };
+		4F11981915719463004E61F2 /* murasa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = murasa.jpeg; sourceTree = "<group>"; };
+		4F11981A15719463004E61F2 /* the-maelstrom.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-maelstrom.jpeg"; sourceTree = "<group>"; };
+		4F11981B15719463004E61F2 /* lethe-lake.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lethe-lake.jpeg"; sourceTree = "<group>"; };
+		4F11981C15719463004E61F2 /* krosa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = krosa.jpeg; sourceTree = "<group>"; };
+		4F11981D15719463004E61F2 /* izzet-steam-maze.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "izzet-steam-maze.jpeg"; sourceTree = "<group>"; };
+		4F11981E15719463004E61F2 /* isle-of-vesuva.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "isle-of-vesuva.jpeg"; sourceTree = "<group>"; };
+		4F11981F15719463004E61F2 /* immersturm.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = immersturm.jpeg; sourceTree = "<group>"; };
+		4F11982015719463004E61F2 /* the-hippodrome.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-hippodrome.jpeg"; sourceTree = "<group>"; };
+		4F11982115719463004E61F2 /* grixis.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grixis.jpeg; sourceTree = "<group>"; };
+		4F11982215719463004E61F2 /* the-great-forest.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-great-forest.jpeg"; sourceTree = "<group>"; };
+		4F11982315719463004E61F2 /* goldmeadow.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goldmeadow.jpeg; sourceTree = "<group>"; };
+		4F11982415719463004E61F2 /* glimmervoid-basin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "glimmervoid-basin.jpeg"; sourceTree = "<group>"; };
+		4F11982515719463004E61F2 /* the-fourth-sphere.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-fourth-sphere.jpeg"; sourceTree = "<group>"; };
+		4F11982615719463004E61F2 /* fields-of-summer.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fields-of-summer.jpeg"; sourceTree = "<group>"; };
+		4F11982715719463004E61F2 /* feeding-grounds.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "feeding-grounds.jpeg"; sourceTree = "<group>"; };
+		4F11982815719463004E61F2 /* the-eon-fog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-eon-fog.jpeg"; sourceTree = "<group>"; };
+		4F11982915719463004E61F2 /* eloren-wilds.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "eloren-wilds.jpeg"; sourceTree = "<group>"; };
+		4F11982A15719463004E61F2 /* the-dark-barony.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-dark-barony.jpeg"; sourceTree = "<group>"; };
+		4F11982B15719463004E61F2 /* cliffside-market.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cliffside-market.jpeg"; sourceTree = "<group>"; };
+		4F11982C15719463004E61F2 /* bant.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bant.jpeg; sourceTree = "<group>"; };
+		4F11982D15719463004E61F2 /* agyrem.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = agyrem.jpeg; sourceTree = "<group>"; };
 		4FA428F115706FAF0050B09F /* academy-at-tolaria-west.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "academy-at-tolaria-west.jpeg"; sourceTree = "<group>"; };
 		4FA428F215706FAF0050B09F /* llanowar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = llanowar.jpeg; sourceTree = "<group>"; };
 		4FA428F315706FAF0050B09F /* minamo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = minamo.jpeg; sourceTree = "<group>"; };
@@ -127,6 +211,48 @@
 		4FA428F015706FAF0050B09F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4F11980515719463004E61F2 /* tember-city.jpeg */,
+				4F11980615719463004E61F2 /* mirrored-depths.jpeg */,
+				4F11980715719463004E61F2 /* horizon-boughs-gateway-promo.jpeg */,
+				4F11980815719463004E61F2 /* celestine-reef-pre-release-promo.jpeg */,
+				4F11980915719463004E61F2 /* tazeem-release-promo.jpeg */,
+				4F11980A15719463004E61F2 /* velis-vel.jpeg */,
+				4F11980B15719463004E61F2 /* undercity-reaches.jpeg */,
+				4F11980C15719463004E61F2 /* turri-island.jpeg */,
+				4F11980D15719463004E61F2 /* stronghold-furnace.jpeg */,
+				4F11980E15719463004E61F2 /* sokenzan.jpeg */,
+				4F11980F15719463004E61F2 /* skybreen.jpeg */,
+				4F11981015719463004E61F2 /* shiv.jpeg */,
+				4F11981115719463004E61F2 /* sea-of-sand.jpeg */,
+				4F11981215719463004E61F2 /* sanctum-of-serra.jpeg */,
+				4F11981315719463004E61F2 /* ravens-run.jpeg */,
+				4F11981415719463004E61F2 /* pools-of-becoming.jpeg */,
+				4F11981515719463004E61F2 /* panopticon.jpeg */,
+				4F11981615719463004E61F2 /* otaria.jpeg */,
+				4F11981715719463004E61F2 /* naya.jpeg */,
+				4F11981815719463004E61F2 /* naar-isle.jpeg */,
+				4F11981915719463004E61F2 /* murasa.jpeg */,
+				4F11981A15719463004E61F2 /* the-maelstrom.jpeg */,
+				4F11981B15719463004E61F2 /* lethe-lake.jpeg */,
+				4F11981C15719463004E61F2 /* krosa.jpeg */,
+				4F11981D15719463004E61F2 /* izzet-steam-maze.jpeg */,
+				4F11981E15719463004E61F2 /* isle-of-vesuva.jpeg */,
+				4F11981F15719463004E61F2 /* immersturm.jpeg */,
+				4F11982015719463004E61F2 /* the-hippodrome.jpeg */,
+				4F11982115719463004E61F2 /* grixis.jpeg */,
+				4F11982215719463004E61F2 /* the-great-forest.jpeg */,
+				4F11982315719463004E61F2 /* goldmeadow.jpeg */,
+				4F11982415719463004E61F2 /* glimmervoid-basin.jpeg */,
+				4F11982515719463004E61F2 /* the-fourth-sphere.jpeg */,
+				4F11982615719463004E61F2 /* fields-of-summer.jpeg */,
+				4F11982715719463004E61F2 /* feeding-grounds.jpeg */,
+				4F11982815719463004E61F2 /* the-eon-fog.jpeg */,
+				4F11982915719463004E61F2 /* eloren-wilds.jpeg */,
+				4F11982A15719463004E61F2 /* the-dark-barony.jpeg */,
+				4F11982B15719463004E61F2 /* cliffside-market.jpeg */,
+				4F11982C15719463004E61F2 /* bant.jpeg */,
+				4F11982D15719463004E61F2 /* agyrem.jpeg */,
+				4F11980315718C95004E61F2 /* the-aether-flues.jpeg */,
 				4F01C28F15715DF4004371F1 /* planes.xml */,
 				4FA428F115706FAF0050B09F /* academy-at-tolaria-west.jpeg */,
 				4FA428F215706FAF0050B09F /* llanowar.jpeg */,
@@ -299,6 +425,48 @@
 				4FA428F915706FAF0050B09F /* planechase-logo.jpeg in Resources */,
 				4FA428FA15706FAF0050B09F /* Planeswalker_symbol_bw.png in Resources */,
 				4F01C29015715DF4004371F1 /* planes.xml in Resources */,
+				4F11980415718C95004E61F2 /* the-aether-flues.jpeg in Resources */,
+				4F11982E15719463004E61F2 /* tember-city.jpeg in Resources */,
+				4F11982F15719463004E61F2 /* mirrored-depths.jpeg in Resources */,
+				4F11983015719463004E61F2 /* horizon-boughs-gateway-promo.jpeg in Resources */,
+				4F11983115719463004E61F2 /* celestine-reef-pre-release-promo.jpeg in Resources */,
+				4F11983215719463004E61F2 /* tazeem-release-promo.jpeg in Resources */,
+				4F11983315719463004E61F2 /* velis-vel.jpeg in Resources */,
+				4F11983415719463004E61F2 /* undercity-reaches.jpeg in Resources */,
+				4F11983515719463004E61F2 /* turri-island.jpeg in Resources */,
+				4F11983615719463004E61F2 /* stronghold-furnace.jpeg in Resources */,
+				4F11983715719463004E61F2 /* sokenzan.jpeg in Resources */,
+				4F11983815719463004E61F2 /* skybreen.jpeg in Resources */,
+				4F11983915719463004E61F2 /* shiv.jpeg in Resources */,
+				4F11983A15719463004E61F2 /* sea-of-sand.jpeg in Resources */,
+				4F11983B15719463004E61F2 /* sanctum-of-serra.jpeg in Resources */,
+				4F11983C15719463004E61F2 /* ravens-run.jpeg in Resources */,
+				4F11983D15719463004E61F2 /* pools-of-becoming.jpeg in Resources */,
+				4F11983E15719463004E61F2 /* panopticon.jpeg in Resources */,
+				4F11983F15719463004E61F2 /* otaria.jpeg in Resources */,
+				4F11984015719463004E61F2 /* naya.jpeg in Resources */,
+				4F11984115719463004E61F2 /* naar-isle.jpeg in Resources */,
+				4F11984215719463004E61F2 /* murasa.jpeg in Resources */,
+				4F11984315719463004E61F2 /* the-maelstrom.jpeg in Resources */,
+				4F11984415719463004E61F2 /* lethe-lake.jpeg in Resources */,
+				4F11984515719463004E61F2 /* krosa.jpeg in Resources */,
+				4F11984615719463004E61F2 /* izzet-steam-maze.jpeg in Resources */,
+				4F11984715719463004E61F2 /* isle-of-vesuva.jpeg in Resources */,
+				4F11984815719463004E61F2 /* immersturm.jpeg in Resources */,
+				4F11984915719463004E61F2 /* the-hippodrome.jpeg in Resources */,
+				4F11984A15719463004E61F2 /* grixis.jpeg in Resources */,
+				4F11984B15719463004E61F2 /* the-great-forest.jpeg in Resources */,
+				4F11984C15719463004E61F2 /* goldmeadow.jpeg in Resources */,
+				4F11984D15719463004E61F2 /* glimmervoid-basin.jpeg in Resources */,
+				4F11984E15719463004E61F2 /* the-fourth-sphere.jpeg in Resources */,
+				4F11984F15719463004E61F2 /* fields-of-summer.jpeg in Resources */,
+				4F11985015719463004E61F2 /* feeding-grounds.jpeg in Resources */,
+				4F11985115719463004E61F2 /* the-eon-fog.jpeg in Resources */,
+				4F11985215719463004E61F2 /* eloren-wilds.jpeg in Resources */,
+				4F11985315719463004E61F2 /* the-dark-barony.jpeg in Resources */,
+				4F11985415719463004E61F2 /* cliffside-market.jpeg in Resources */,
+				4F11985515719463004E61F2 /* bant.jpeg in Resources */,
+				4F11985615719463004E61F2 /* agyrem.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
