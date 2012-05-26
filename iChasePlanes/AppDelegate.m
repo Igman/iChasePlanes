@@ -7,37 +7,23 @@
 //
 
 #import "AppDelegate.h"
+#import "PlanesDeck.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
-@synthesize academyButton = _academyButton;
 @synthesize llanowarButton = _llanowarButton;
-@synthesize minamoButton = _minamoButton;
 @synthesize mainImageView = _mainImageView;
+@synthesize planesDeck = _planesDeck;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    self.planesDeck = [[PlanesDeck alloc] init];
     NSLog(@"application loaded");
 }
 
-- (IBAction)setPlane:(id)sender {
-    NSString* imageName = Nil;
-    
-    if (sender == self.academyButton){
-        imageName = [[NSBundle mainBundle] pathForResource:@"academy-at-tolaria-west" ofType:@"jpeg"];
-    }else if (sender == self.llanowarButton){
-        imageName = [[NSBundle mainBundle] pathForResource:@"llanowar" ofType:@"jpeg"];
-    }else{
-        imageName = [[NSBundle mainBundle] pathForResource:@"minamo" ofType:@"jpeg"];
-    }
-    
-    NSImage* imageObj = [[NSImage alloc] initWithContentsOfFile:imageName];
-    [self setPlaneImageTo:imageObj];
+- (IBAction)peformPlaneswalk:(id)sender {
+    NSImage* planeImage = [self.planesDeck planeswalk];
+    [self.mainImageView setImage:planeImage];
 }
-
-- (void)setPlaneImageTo: (NSImage *)image{
-    self.mainImageView.image = image;
-}
-
 @end
