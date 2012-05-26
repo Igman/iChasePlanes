@@ -26,4 +26,9 @@
     NSImage* planeImage = [self.planesDeck planeswalk];
     [self.mainImageView setImage:planeImage];
 }
+
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication{
+    return YES;
+}
+
 @end

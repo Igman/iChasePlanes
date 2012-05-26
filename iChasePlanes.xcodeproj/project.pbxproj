@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FA428F615706FAF0050B09F /* academy-at-tolaria-west.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4FA428F115706FAF0050B09F /* academy-at-tolaria-west.jpeg */; };
+		4FA428F715706FAF0050B09F /* llanowar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4FA428F215706FAF0050B09F /* llanowar.jpeg */; };
+		4FA428F815706FAF0050B09F /* minamo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4FA428F315706FAF0050B09F /* minamo.jpeg */; };
+		4FA428F915706FAF0050B09F /* planechase-logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4FA428F415706FAF0050B09F /* planechase-logo.jpeg */; };
+		4FA428FA15706FAF0050B09F /* Planeswalker_symbol_bw.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FA428F515706FAF0050B09F /* Planeswalker_symbol_bw.png */; };
+		4FB99B22157061C600E735E4 /* PlanesDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB99B21157061C600E735E4 /* PlanesDeck.m */; };
 		4FE04DD81570547D00577B49 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE04DD71570547D00577B49 /* Cocoa.framework */; };
 		4FE04DE21570547D00577B49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FE04DE01570547D00577B49 /* InfoPlist.strings */; };
 		4FE04DE41570547D00577B49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE04DE31570547D00577B49 /* main.m */; };
@@ -30,6 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4FA428F115706FAF0050B09F /* academy-at-tolaria-west.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "academy-at-tolaria-west.jpeg"; sourceTree = "<group>"; };
+		4FA428F215706FAF0050B09F /* llanowar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = llanowar.jpeg; sourceTree = "<group>"; };
+		4FA428F315706FAF0050B09F /* minamo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = minamo.jpeg; sourceTree = "<group>"; };
+		4FA428F415706FAF0050B09F /* planechase-logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "planechase-logo.jpeg"; sourceTree = "<group>"; };
+		4FA428F515706FAF0050B09F /* Planeswalker_symbol_bw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Planeswalker_symbol_bw.png; sourceTree = "<group>"; };
+		4FB99B20157061C600E735E4 /* PlanesDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanesDeck.h; sourceTree = "<group>"; };
+		4FB99B21157061C600E735E4 /* PlanesDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanesDeck.m; sourceTree = "<group>"; };
 		4FE04DD31570547D00577B49 /* iChasePlanes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChasePlanes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE04DD71570547D00577B49 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4FE04DDA1570547D00577B49 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -40,7 +53,7 @@
 		4FE04DE31570547D00577B49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4FE04DE51570547D00577B49 /* iChasePlanes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iChasePlanes-Prefix.pch"; sourceTree = "<group>"; };
 		4FE04DE71570547D00577B49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		4FE04DE91570547D00577B49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FE04DE91570547D00577B49 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
 		4FE04DEA1570547D00577B49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4FE04DED1570547D00577B49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4FE04DF41570547D00577B49 /* iChasePlanesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iChasePlanesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,9 +85,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FA428F015706FAF0050B09F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4FA428F115706FAF0050B09F /* academy-at-tolaria-west.jpeg */,
+				4FA428F215706FAF0050B09F /* llanowar.jpeg */,
+				4FA428F315706FAF0050B09F /* minamo.jpeg */,
+				4FA428F415706FAF0050B09F /* planechase-logo.jpeg */,
+				4FA428F515706FAF0050B09F /* Planeswalker_symbol_bw.png */,
+			);
+			name = Resources;
+			path = iChasePlanes/Resources;
+			sourceTree = "<group>";
+		};
 		4FE04DC81570547D00577B49 = {
 			isa = PBXGroup;
 			children = (
+				4FA428F015706FAF0050B09F /* Resources */,
 				4FE04DDD1570547D00577B49 /* iChasePlanes */,
 				4FE04DFA1570547D00577B49 /* iChasePlanesTests */,
 				4FE04DD61570547D00577B49 /* Frameworks */,
@@ -114,10 +141,12 @@
 		4FE04DDD1570547D00577B49 /* iChasePlanes */ = {
 			isa = PBXGroup;
 			children = (
-				4FE04DE91570547D00577B49 /* AppDelegate.h */,
 				4FE04DEA1570547D00577B49 /* AppDelegate.m */,
+				4FE04DE91570547D00577B49 /* AppDelegate.h */,
 				4FE04DEC1570547D00577B49 /* MainMenu.xib */,
 				4FE04DDE1570547D00577B49 /* Supporting Files */,
+				4FB99B20157061C600E735E4 /* PlanesDeck.h */,
+				4FB99B21157061C600E735E4 /* PlanesDeck.m */,
 			);
 			path = iChasePlanes;
 			sourceTree = "<group>";
@@ -226,6 +255,11 @@
 				4FE04DE21570547D00577B49 /* InfoPlist.strings in Resources */,
 				4FE04DE81570547D00577B49 /* Credits.rtf in Resources */,
 				4FE04DEE1570547D00577B49 /* MainMenu.xib in Resources */,
+				4FA428F615706FAF0050B09F /* academy-at-tolaria-west.jpeg in Resources */,
+				4FA428F715706FAF0050B09F /* llanowar.jpeg in Resources */,
+				4FA428F815706FAF0050B09F /* minamo.jpeg in Resources */,
+				4FA428F915706FAF0050B09F /* planechase-logo.jpeg in Resources */,
+				4FA428FA15706FAF0050B09F /* Planeswalker_symbol_bw.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +296,7 @@
 			files = (
 				4FE04DE41570547D00577B49 /* main.m in Sources */,
 				4FE04DEB1570547D00577B49 /* AppDelegate.m in Sources */,
+				4FB99B22157061C600E735E4 /* PlanesDeck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +470,7 @@
 				4FE04E071570547D00577B49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FE04E081570547D00577B49 /* Build configuration list for PBXNativeTarget "iChasePlanesTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +479,7 @@
 				4FE04E0A1570547D00577B49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
