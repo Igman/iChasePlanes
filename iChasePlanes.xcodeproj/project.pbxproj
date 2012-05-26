@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F01C29015715DF4004371F1 /* planes.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4F01C28F15715DF4004371F1 /* planes.xml */; };
+		4F01C29115715DF4004371F1 /* planes.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4F01C28F15715DF4004371F1 /* planes.xml */; };
+		4F1197FF15716412004E61F2 /* PlanesXMLLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1197FE15716412004E61F2 /* PlanesXMLLoader.m */; };
+		4F11980215716FBF004E61F2 /* PlaneCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F11980115716FBF004E61F2 /* PlaneCard.m */; };
 		4FA428F615706FAF0050B09F /* academy-at-tolaria-west.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4FA428F115706FAF0050B09F /* academy-at-tolaria-west.jpeg */; };
 		4FA428F715706FAF0050B09F /* llanowar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4FA428F215706FAF0050B09F /* llanowar.jpeg */; };
 		4FA428F815706FAF0050B09F /* minamo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4FA428F315706FAF0050B09F /* minamo.jpeg */; };
@@ -36,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F01C28F15715DF4004371F1 /* planes.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = planes.xml; sourceTree = "<group>"; };
+		4F1197FD15716412004E61F2 /* PlanesXMLLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanesXMLLoader.h; sourceTree = "<group>"; };
+		4F1197FE15716412004E61F2 /* PlanesXMLLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanesXMLLoader.m; sourceTree = "<group>"; };
+		4F11980015716FBF004E61F2 /* PlaneCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaneCard.h; sourceTree = "<group>"; };
+		4F11980115716FBF004E61F2 /* PlaneCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaneCard.m; sourceTree = "<group>"; };
 		4FA428F115706FAF0050B09F /* academy-at-tolaria-west.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "academy-at-tolaria-west.jpeg"; sourceTree = "<group>"; };
 		4FA428F215706FAF0050B09F /* llanowar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = llanowar.jpeg; sourceTree = "<group>"; };
 		4FA428F315706FAF0050B09F /* minamo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = minamo.jpeg; sourceTree = "<group>"; };
@@ -53,7 +62,7 @@
 		4FE04DE31570547D00577B49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4FE04DE51570547D00577B49 /* iChasePlanes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iChasePlanes-Prefix.pch"; sourceTree = "<group>"; };
 		4FE04DE71570547D00577B49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		4FE04DE91570547D00577B49 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FE04DE91570547D00577B49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4FE04DEA1570547D00577B49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4FE04DED1570547D00577B49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4FE04DF41570547D00577B49 /* iChasePlanesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iChasePlanesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,9 +94,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F01C28C15715C88004371F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4FB99B20157061C600E735E4 /* PlanesDeck.h */,
+				4FB99B21157061C600E735E4 /* PlanesDeck.m */,
+				4F11980015716FBF004E61F2 /* PlaneCard.h */,
+				4F11980115716FBF004E61F2 /* PlaneCard.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4F01C28E15715C9F004371F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4FE04DEA1570547D00577B49 /* AppDelegate.m */,
+				4FE04DE91570547D00577B49 /* AppDelegate.h */,
+				4FE04DEC1570547D00577B49 /* MainMenu.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4F1197FB157163F9004E61F2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4F1197FD15716412004E61F2 /* PlanesXMLLoader.h */,
+				4F1197FE15716412004E61F2 /* PlanesXMLLoader.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		4FA428F015706FAF0050B09F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4F01C28F15715DF4004371F1 /* planes.xml */,
 				4FA428F115706FAF0050B09F /* academy-at-tolaria-west.jpeg */,
 				4FA428F215706FAF0050B09F /* llanowar.jpeg */,
 				4FA428F315706FAF0050B09F /* minamo.jpeg */,
@@ -141,12 +181,10 @@
 		4FE04DDD1570547D00577B49 /* iChasePlanes */ = {
 			isa = PBXGroup;
 			children = (
-				4FE04DEA1570547D00577B49 /* AppDelegate.m */,
-				4FE04DE91570547D00577B49 /* AppDelegate.h */,
-				4FE04DEC1570547D00577B49 /* MainMenu.xib */,
+				4F1197FB157163F9004E61F2 /* Controller */,
+				4F01C28E15715C9F004371F1 /* View */,
+				4F01C28C15715C88004371F1 /* Model */,
 				4FE04DDE1570547D00577B49 /* Supporting Files */,
-				4FB99B20157061C600E735E4 /* PlanesDeck.h */,
-				4FB99B21157061C600E735E4 /* PlanesDeck.m */,
 			);
 			path = iChasePlanes;
 			sourceTree = "<group>";
@@ -260,6 +298,7 @@
 				4FA428F815706FAF0050B09F /* minamo.jpeg in Resources */,
 				4FA428F915706FAF0050B09F /* planechase-logo.jpeg in Resources */,
 				4FA428FA15706FAF0050B09F /* Planeswalker_symbol_bw.png in Resources */,
+				4F01C29015715DF4004371F1 /* planes.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FE04DFF1570547D00577B49 /* InfoPlist.strings in Resources */,
+				4F01C29115715DF4004371F1 /* planes.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +337,8 @@
 				4FE04DE41570547D00577B49 /* main.m in Sources */,
 				4FE04DEB1570547D00577B49 /* AppDelegate.m in Sources */,
 				4FB99B22157061C600E735E4 /* PlanesDeck.m in Sources */,
+				4F1197FF15716412004E61F2 /* PlanesXMLLoader.m in Sources */,
+				4F11980215716FBF004E61F2 /* PlaneCard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
