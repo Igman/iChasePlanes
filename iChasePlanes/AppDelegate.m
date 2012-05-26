@@ -8,23 +8,26 @@
 
 #import "AppDelegate.h"
 #import "PlanesDeck.h"
+#import "PlaneCard.h"
+#import "PlanesXMLLoader.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
-@synthesize llanowarButton = _llanowarButton;
 @synthesize mainImageView = _mainImageView;
 @synthesize planesDeck = _planesDeck;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    self.planesDeck = [[PlanesDeck alloc] init];
+    NSString* xmlFile = [[NSBundle mainBundle] pathForResource:@"planes" ofType:@"xml"];
+    self.planesDeck = [PlanesXMLLoader getDeckFromXMLFile:xmlFile];
     NSLog(@"application loaded");
 }
 
 - (IBAction)peformPlaneswalk:(id)sender {
-    NSImage* planeImage = [self.planesDeck planeswalk];
-    [self.mainImageView setImage:planeImage];
+    PlaneCard *card = [self.planesDeck drawPlaneCard];
+    NSImage *cardImage = [[NSImage alloc] initWithContentsOfFile:card.imagePath];
+    [self.mainImageView setImage:cardImage];
 }
 
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication{

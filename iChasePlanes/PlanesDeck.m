@@ -7,40 +7,46 @@
 //
 
 #import "PlanesDeck.h"
+#import "PlaneCard.h"
 
 @implementation PlanesDeck
+@synthesize availableCards  = _availableCards;
+@synthesize activeDeck = _activeDeck;
+@synthesize discardDeck = _discardDeck;
 
 -(id) init{
+    //TODO handle empty card set better
+    NSArray *avaiableCards = [[NSArray alloc] init];
+    return [self initWithAvailableCards:avaiableCards];
+}
+
+-(id) initWithAvailableCards:(NSArray *)cards{
     if(self = [super init]){
-        planes = [self buildPlanesDeck];
+        self.availableCards = cards;
+        [self buildDeck];
     }
     NSLog(@"planes deck created");
     return self;
 }
 
-//Creaters the planes deck
--(NSMutableArray*)buildPlanesDeck{
-    NSMutableArray* deck = [[NSMutableArray alloc] init];
-    [deck addObject:[[NSBundle mainBundle] pathForResource:@"academy-at-tolaria-west" ofType:@"jpeg"]];
-    [deck addObject:[[NSBundle mainBundle] pathForResource:@"llanowar" ofType:@"jpeg"]];
-    [deck addObject:[[NSBundle mainBundle] pathForResource:@"minamo" ofType:@"jpeg"]];
-    return deck;
+-(PlaneCard*) drawPlaneCard{
+    //Grabs a random plane from the deck
+    if([self.activeDeck count] == 0){
+        [self buildDeck];
+    }
+    srand(time(nil));
+    int index = rand()%[self.activeDeck count];
+    PlaneCard *card = [self.activeDeck objectAtIndex:index];
+    [self.activeDeck removeObjectAtIndex:index];
+    [self.discardDeck addObject:card];
+    return card;
 }
 
--(NSImage*) planeswalk{
-    //Grabs a random plane from the deck
-    srand(time(nil));
-    int index = rand()%[planes count];
-    NSString* imagePath = [planes objectAtIndex:index];
-    [planes removeObjectAtIndex:index];
-    NSImage* planeImage = [[NSImage alloc] initWithContentsOfFile:imagePath];
-    
-    //Rebuilds the deck if it is empty
-    if([planes count] == 0){
-        planes = [self buildPlanesDeck];
-    }
-    
-    return planeImage;
+-(void) buildDeck{
+    NSMutableArray *activeDeck = [[NSMutableArray alloc] init];
+    self.discardDeck = [[NSMutableArray alloc] init];  
+    self.activeDeck = [[NSMutableArray alloc] initWithArray:self.availableCards];
 }
 
 @end
+ 

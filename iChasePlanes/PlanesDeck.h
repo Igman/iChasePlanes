@@ -7,14 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+@class PlaneCard;
 
-@interface PlanesDeck : NSObject{
+@interface PlanesDeck : NSObject
     
-    NSMutableArray* planes;
-}
+@property (strong) NSArray* availableCards;
+@property (strong) NSMutableArray* activeDeck;
+@property (strong) NSMutableArray* discardDeck;
 
 - (id)init;
-- (NSImage*)planeswalk;
-- (NSMutableArray*)buildPlanesDeck;
+- (id)initWithAvailableCards:(NSArray*)cards;
+- (PlaneCard*)drawPlaneCard;
 
 @end

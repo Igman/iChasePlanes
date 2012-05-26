@@ -15,9 +15,6 @@
 @property (strong) PlanesDeck* planesDeck;
 
 @property (assign) IBOutlet NSWindow *window;
-@property (weak) IBOutlet NSButton *academyButton;
-@property (weak) IBOutlet NSButton *llanowarButton;
-@property (weak) IBOutlet NSButton *minamoButton;
 @property (weak) IBOutlet NSImageView *mainImageView;
 
 - (IBAction)peformPlaneswalk:(id)sender;

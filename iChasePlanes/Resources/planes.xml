@@ -1,0 +1,15 @@
+<plane-cards>
+    
+    <plane-card>
+        <name>Academy at Tolaria West</name>
+        <plane>Dominaria</plane>
+        <image-file format="jpeg">academy-at-tolaria-west</image-file>
+    </plane-card>
+    
+    <plane-card>
+        <name>Llanowar</name>
+        <plane>Dominaria</plane>
+        <image-file format="jpeg">llanowar</image-file>
+    </plane-card>
+    
+</plane-cards>
