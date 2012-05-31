@@ -84,11 +84,11 @@
         <image-file format="jpeg">the-great-forest</image-file>
     </plane-card>
     
-    <plane-card>
+    <!-- <plane-card>
         <name>Grixis</name>
         <plane>Alara</plane>
         <image-file format="jpeg">grixis</image-file>
-    </plane-card>
+    </plane-card> -->
     
     <plane-card>
         <name>The Hippodrome</name>
@@ -208,7 +208,7 @@
     <plane-card>
         <name>Skybreen</name>
         <plane>Kaldheim</plane>
-        <image-file format="jpeg">bant</image-file>
+        <image-file format="jpeg">skybreen</image-file>
     </plane-card>
     
     <plane-card>
